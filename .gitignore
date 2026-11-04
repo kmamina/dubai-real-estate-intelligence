@@ -1,0 +1,31 @@
+# Raw and processed data (licence check pending; never upload raw data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Credentials and local config
+.env
+*.env
+config.local.*
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Logs and generated files
+logs/*.log
+
+# SQL Server backups and Power BI cache
+*.bak
+*.mdf
+*.ldf
+.pbi/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
