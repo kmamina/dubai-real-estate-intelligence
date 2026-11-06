@@ -29,3 +29,5 @@ logs/*.log
 .DS_Store
 Thumbs.db
 .vscode/
+logs/*
+!logs/.gitkeep
