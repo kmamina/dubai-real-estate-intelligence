@@ -1,6 +1,6 @@
 # Data quality report: transactions-2026-11-04.csv
 
-Generated: 2026-11-06 19:05
+Generated: 2026-11-06 19:49
 
 ## input
 
