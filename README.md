@@ -2,20 +2,19 @@
 
 An end-to-end analytics project on Dubai Land Department (DLD) transaction data for 2026 (1 January to 4 November): a Python cleaning pipeline, a SQL Server database with duplicate protection, reporting views, and a five-page Power BI dashboard.
 
-> **Data note:** the raw DLD file and the Power BI file (which embeds data) are not included in this repository. TODO: add the official data source link and confirm its licence before sharing either.
+>  **Data note:** the raw Dubai Land Department (DLD) transaction file and the Power BI file (which embeds data) are not included in this repository. Obtain the data from the official DLD source and check its terms of use before reuse.
 
 ## Dashboard
 
-<!-- TODO: add screenshots to docs/images/ and keep these lines -->
 | Overview | Area analysis |
 |---|---|
-| ![Overview](docs/images/overview.png) | ![Area](docs/images/area.png) |
+| ![Overview](docs/images/Overview.png) | ![Area](docs/images/Area.png) |
 
 | Property analysis | Transaction trends |
 |---|---|
-| ![Property](docs/images/property.png) | ![Trends](docs/images/trends.png) |
+| ![Property](docs/images/Property.png) | ![Trends](docs/images/Trends.png) |
 
-Data Quality page: `docs/images/data_quality.png`
+Data Quality page: ![Data Quality](docs/images/Data_quality.png)
 
 ## Key findings
 
@@ -24,8 +23,8 @@ All figures are for eligible sales transactions (see [Metric definitions](#metri
 1. **Scale:** 136K eligible sales worth AED 415.9bn, an average of AED 3.06M per transaction and AED 1,974 per sq ft (apartments and villas).
 2. **Apartments dominate by count:** 106K transactions (77.8%), against about 11K each for land and villas.
 3. **Sales value is concentrated in a few communities:** Business Bay leads with AED 22.9bn, followed by Madinat Al Mataar (18.5bn) and Al Yelayiss 1 (16.7bn).
-4. **Value rank is not price rank:** Palm Jumeirah (AED 4,367 per sq ft), Palm Jabal Ali (3,578) and Burj Khalifa (3,321) are the most expensive per sq ft, while Madinat Al Mataar, 2nd by value, is among the cheapest of the top 10 (1,612). Large total value there comes from volume, not high prices.
-5. **Activity slowed after the first quarter:** monthly sales fell from about 17K in January and February to about 10K in May, recovered to 14K in June and July, then sat at 11-12K from August to October.
+4. **Value rank is not price rank:** Palm Jumeirah (AED 4,367 per sq ft), Palm Jabal Ali (3,578) and Burj Khalifa (3,321) are the most expensive per sq ft, while Madinat Al Mataar, 2nd by value, is among the cheapest of the top 10 (1,612). Its large total value likely reflects transaction volume rather than high prices per sq ft (price per sq ft covers apartments and villas only).
+5. **Activity slowed after February:** monthly sales fell from about 17K in January and February to about 10K in May, recovered to 14K in June and July, then sat at 11-12K from August to October.
 6. **Communities move differently:** Madinat Al Mataar grew month by month through spring (782 in January to over 1,200 in May), while Jumeirah Village Circle and Al Yelayiss 1 fell over the same months.
 
 These are descriptions of one partial year. They show no year-on-year growth and no seasonality (see [Limitations](#limitations)).
