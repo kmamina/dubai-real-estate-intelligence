@@ -31,3 +31,5 @@ Thumbs.db
 .vscode/
 logs/*
 !logs/.gitkeep
+# Power BI files contain imported data (licence check pending)
+powerbi/*.pbix

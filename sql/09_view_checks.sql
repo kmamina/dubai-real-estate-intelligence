@@ -1,3 +1,5 @@
+
+
 -- 09_view_checks.sql
 -- Run each query separately (highlight it, F5). "Expected" values come from running the same view logic
 -- on your cleaned CSV in a second SQL engine, so a mismatch means something is different in SQL Server.
