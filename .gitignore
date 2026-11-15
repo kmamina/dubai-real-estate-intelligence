@@ -33,3 +33,5 @@ logs/*
 !logs/.gitkeep
 # Power BI files contain imported data (licence check pending)
 powerbi/*.pbix
+
+*.pbix
